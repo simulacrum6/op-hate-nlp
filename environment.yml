@@ -1,0 +1,13 @@
+name: hateop-train
+channels:
+  - huggingface
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - pytorch=1.4.0
+  - cudatoolkit=10.1
+  - transformers=4.1.1
